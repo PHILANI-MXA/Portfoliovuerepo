@@ -1,6 +1,10 @@
 <template>
   <div class="container-fluid min-vh-100 my-5 p-4">
-    <p>Hello There</p>
+    <h2 class="text-white display-2">Hi There!</h2>
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-6">
+    </div><h4 class="text-white">I am an Aspiring fullstack developer</h4>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
  <div id="contact" class=" container h-100 vw-100 my-5">
-                                    <h2 class="d-flex justify-content-center align-items-center flex-column bg-black text-white my-4">Contact me</h2>
+                                    <h2 class="d-flex justify-content-center align-items-center flex-column bg-black text-white my-4 p-3">Contact me</h2>
                                     <div class="row edufont">
                                         <div class="col-md-6">
                                             <div class="#">

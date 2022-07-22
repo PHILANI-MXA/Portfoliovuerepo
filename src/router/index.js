@@ -4,7 +4,7 @@ import ContactView from '@/views/ContactView';
 import AboutViewVue from '../views/AboutView.vue';
 import TestimonialsComp from '@/views/TestimonialsComp';
 import SkillsView from '@/views/SkillsView';
-import EducationView from '@/views/EducationView'
+import EducationView from '@/views/EducationView';
 
 const routes = [
   {

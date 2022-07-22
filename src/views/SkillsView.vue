@@ -1,17 +1,17 @@
 <template>
      <section id="skills">
         <div class="container">
-            <div class="row">
-            <div class="col-md-3"></div>
+        <h2 class="text-center bg-black bg-black my-4 p-3 fw-bolder">Tech Skills</h2>
+            <div class="row my-2">
                 <div class="col-md-6">
-                    <h3>Tech Skills</h3>
+                    
                     <ul class="list-unstyled">
                         <li>
-                            <p class="d-flex justify-content-between lh-sm">
+                            <p class="d-flex justify-content-between">
                                 HTML <span>75%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                         <li>
@@ -19,7 +19,7 @@
                                 CSS <span>70%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                         <li>
@@ -27,7 +27,7 @@
                                 Bootstrap <span>60%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                         <li>
@@ -35,15 +35,27 @@
                                 Javascript <span>20%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
+                         <li>
+                            <p class="d-flex justify-content-between">
+                                React <span>20%</span>
+                            </p>
+                            <div class="progress ">
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                 <ul class="list-unstyled">
                         <li>
                             <p class="d-flex justify-content-between">
                                 SQL<span>95%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                          <li>
@@ -51,7 +63,7 @@
                                 Java<span>20%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                          <li>
@@ -59,7 +71,7 @@
                                 Vue<span>20%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                          <li>
@@ -67,7 +79,7 @@
                                 NodeJs<span>20%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                         <li>
@@ -75,12 +87,13 @@
                                 Python<span>20%</span>
                             </p>
                             <div class="progress ">
-                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-black" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md3">
+                <div class="container col-12 border border-black">
+                <h1>Tech Icons/svg Display Flex</h1>
                 </div>
             </div>
         </div>
@@ -96,11 +109,5 @@ export default {
 </script>
 
 <style>
-.progress-bar {
-    height: 2.5px;
-}
 
-.progress {
-    height: 5px;
-}
 </style>

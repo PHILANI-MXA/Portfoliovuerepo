@@ -1,6 +1,7 @@
 <template>
   <NavComponent/>
-  <router-view/>
+  <HomeView />
+  <!-- <router-view/> -->
   <AboutView/>
   <EducationView/>
   <SkillsView/>
@@ -18,6 +19,7 @@ import TestimonialsComp from '@/views/TestimonialsComp'
 import SkillsView from './views/SkillsView.vue'
 import ProjectsView from './views/ProjectsView.vue'
 import EducationView from './views/EducationView.vue'
+import HomeView from './views/HomeView.vue'
 export default {
   components: {
     NavComponent,
@@ -27,7 +29,8 @@ export default {
     TestimonialsComp,
     SkillsView,
     ProjectsView,
-    EducationView
+    EducationView,
+    HomeView
 }
 }
 </script>

@@ -1,8 +1,8 @@
 <template>
-<div class="container">
+<div class="container my-5 p-2">
     <div id="testimonials" class="container h-100 bg-dark text-white">
         <div class=" h-100 text-center">
-            <h2 class="d-flex justify-content-center align-items-center flex-column text-white bg-dark">Testimonials</h2>
+            <h2 class="d-flex justify-content-center align-items-center flex-column text-white bg-dark my-2 p-3">Testimonials</h2>
             <div class=" text-white text-center">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
