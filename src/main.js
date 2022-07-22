@@ -10,3 +10,4 @@ import 'feather-icons';
 import 'bootstrap-icons/font/bootstrap-icons';
 
 createApp(App).use(BootstrapVue).use(IconsPlugin).use(store).use(router).mount('#app');
+

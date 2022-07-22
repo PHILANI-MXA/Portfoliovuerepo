@@ -23,7 +23,7 @@
                     <div class="card" style="width: 18rem;">
   <img src="https://i.postimg.cc/Hj115Ct7/default.png" class="card-img-top img-fluid" alt="badge">
   <div class="card-body">
-    <h5 class="card-title">Matric</h5>
+    <h5 class="card-title">Professional Degree</h5>
   </div>
   <ul class="list-group list-group-flush">
    <li class="list-group-item">B Library and Information Science</li>

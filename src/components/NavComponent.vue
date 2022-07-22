@@ -1,5 +1,5 @@
 <template>
-        <nav class=" navbar-expand-lg navbar-dark bg-black text-white navbar navbar-fixed-top" id="topNav">
+        <nav class="container-fluid navbar-expand-lg navbar-dark bg-black text-white navbar navbar-fixed-top" id="topNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="https://i.postimg.cc/KY6s82D6/favicon-32x32.png" alt=""></a>
             <span class="d-block d-lg-none"></span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

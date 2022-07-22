@@ -1,8 +1,8 @@
 <template>
-<div class="container my-5 p-2">
-    <div id="testimonials" class="container h-100 bg-dark text-white">
+<div id="testimonials" class="container my-5 p-2">
+    <div  class="container h-100 bg-black text-white my-2 p-2">
         <div class=" h-100 text-center">
-            <h2 class="d-flex justify-content-center align-items-center flex-column text-white bg-dark my-2 p-3">Testimonials</h2>
+            <h2 class="d-flex justify-content-center align-items-center flex-column text-black p-3 bg-white">Testimonials</h2>
             <div class=" text-white text-center">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -15,7 +15,7 @@
                     <div class="carousel-inner py-lg-5">
                         <div class="carousel-item active">
                             <div class="carousel-con-custom">
-                                <!-- <img class="pics" src="/images/joel2 (1).jpg" alt="Joel carousel"> -->
+                                <img class="pics img-fluid" src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg" alt="Joel carousel">
                                 <h5 class="my-3">Joel Mukanya</h5>
                                 <h6>Coding Lecture</h6>
                                 <p class="text-wrap">I am confident that Philani can meet your expectations. I recommend him.
@@ -23,25 +23,25 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <!-- <img class="pics" src="/images/Sibongile (2).JPG" alt="Sibongile carousel"> -->
+                            <img class="pics img-fluid" src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Sibongile carousel">
                             <h5 class="my-3">Sibongile Rwayi</h5>
                             <h6>Collegues</h6>
                             <p class="text-wrap">Philani seems to show a lot of promise as a student. I enjoy seeing him work hard on his classwork.</p>
                         </div>
                         <div class="carousel-item">
-                            <!-- <img class="pics" src="/images/Silizwe (2).JPG" alt="Siliziwe Pani carousel"> -->
+                            <img class="pics img-fluid" src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Siliziwe Pani carousel">
                             <h5 class="my-3">Silizwe Pani</h5>
                             <h6>Collegues</h6>
                             <p class="text-wrap">Philani is an open-minded person and I work well with him. He is a dedicated and hard worker and he always gets the job done.</p>
                         </div>
                         <div class="carousel-item">
-                            <!-- <img class="pics" src="/images/Khanyiswa (2).JPG" alt="Khanyiswa Ntenqa carousel"> -->
+                            <img class="pics img-fluid" src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Khanyiswa Ntenqa carousel">
                             <h5 class="my-3">Khanyiswa Ntenqa</h5>
                             <h6>Collegues</h6>
                             <p class="text-wrap">Philani is very talented and his skill is acknowledged by others.</p>
                         </div>
                         <div class="carousel-item">
-                            <!-- <img class="pics" src="/images/Godwin22.JPG" alt="Khanyiswa Ntenqa carousel"> -->
+                            <img class="pics img-fluid" src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Khanyiswa Ntenqa carousel">
                             <h5 class="my-3">Godwin</h5>
                             <h6>Senior Lecture</h6>
                             <p class="text-wrap">Philani is really passionate about what tech and improving day by day</p>
@@ -75,5 +75,12 @@ export default {
 </script>
 
 <style >
-
+.pics {
+    width: 25%;
+    height: 25%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 0px;
+}
 </style>

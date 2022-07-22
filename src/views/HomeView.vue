@@ -1,10 +1,25 @@
 <template>
-  <div class="container-fluid min-vh-100 my-5 p-4">
-    <h2 class="text-white display-2">Hi There!</h2>
-    <div class="col-md-6">
-    </div>
-    <div class="col-md-6">
-    </div><h4 class="text-white">I am an Aspiring fullstack developer</h4>
+  <div id="home" class="container-fluid min-vh-100 my-5 p-4">
+    <div>
+    <div class="wrapper">
+	<h1 class="text">
+		<div class="line">
+			<p>I am Philani Mxathule</p>
+			<p>I am an aspiring front-end developer</p>
+			<p>I am an aspiring software developer</p>
+		</div>
+		<div class="fw-bold line">
+			<p>I am an aspiring front-end developer</p>
+			<p>I am an aspiring software developer</p>
+			<p>I am Philani Mxathule</p>
+		</div>
+		<div class="line">
+			<p>I am an aspiringsoftware developerr</p>
+			<p>I am Philani Mxathule</p>
+			<p>I am an aspiring front-end developer</p>
+		</div>
+	</h1>
+</div></div>
   </div>
 </template>
 
@@ -16,7 +31,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .container-fluid{
   background-attachment: fixed;
   background-image: url(https://i.postimg.cc/7hnVt6gX/tai-s-captures-r5k-TKshp22-M-unsplash.jpg) !important;
@@ -37,5 +52,64 @@ min-width: 100%;
 }
 
 
+p {
+	margin: 0;
+}
+.wrapper {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.text {
+	margin: 0;
+	font-size: 35px;
+	text-align: left;
+	text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+	text-align: center;
+	.line {
+		overflow: hidden;
+    white-space: nowrap;
+    height: 70px;	
+		line-height: .9;
+		&:first-child {
+			& + .line {
+				margin-left: 75px;
+				&+ .line {
+					margin-left: 150px;
+				}
+			}
+		}
+		> p {
+			margin: 0;
+			height: 70px;	
+			overflow: hidden;
+			font-size: 1em;
+			line-height: .9;
+			white-space: nowrap;
+			animation: moveWords 6s infinite ease;
+		}
+	}
+	.line:nth-child(odd) {
+		transform: skew() scaleY(.66667);
+	}
+	.line:nth-child(even) {
+		transform: skew() scaleY(1.33333);
+	}
+}
+
+@keyframes moveWords {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
 
 </style>

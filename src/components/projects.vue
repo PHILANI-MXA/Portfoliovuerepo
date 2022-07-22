@@ -1,16 +1,16 @@
 <template>
-<div class="container h-100 overflow-auto">
+<div id="projects" class="container h-100 overflow-auto">
 <div class="row d-flex">
-<div v-for="card in projects" class="col-md-3 card d-flex justify-content-between ">
+<div v-for="card in projects" class="col-md-4 card d-flex  ">
 <div>
   <div class="card-header">
+  <h5 class="card-title">{{card.projectname}}</h5>
   </div>
   <div class="card-body">
-  <h5 class="card-title">{{card.projectname}}</h5>
   <img class="img-fluid" :src="card.img" alt="project image">
     <p class="card-text">{{card.title}}</p>
-     <a href="#" class="btn btn-primaryd-flex btn-success">Ghub </a>
-     <a href="#" class="btn btn-primaryd-flex btn-danger">Live </a>
+     <a href="{{card.Ghub}}" class="btn btn-primaryd-flex btn-success">Ghub</a>
+     <a href="{{card.live}}" class="btn btn-primaryd-flex btn-danger">live</a>
   </div>
 </div>
 </div>

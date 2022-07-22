@@ -1,7 +1,7 @@
 <template>
      <section id="skills">
         <div class="container">
-        <h2 class="text-center bg-black bg-black my-4 p-3 fw-bolder">Tech Skills</h2>
+        <h2 class="text-center bg-black bg-black my-4 p-3 fw-bolder">Technical Skills</h2>
             <div class="row my-2">
                 <div class="col-md-6">
                     
@@ -101,8 +101,10 @@
 </template>
 
 <script>
+
 export default {
     name: 'SkillsView'
+   
   
 }
 
