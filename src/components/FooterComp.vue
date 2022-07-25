@@ -17,7 +17,7 @@
         <a href="#skills" target="_blank">
               <i class="bi bi-code-slash"></i>
             </a>
-        <a href="#projects" target="_blank">
+        <a href="certificates" target="_blank">
               <i class="bi bi-bag-x"></i>
             </a>
              <a href="#testimonials" target="_blank">

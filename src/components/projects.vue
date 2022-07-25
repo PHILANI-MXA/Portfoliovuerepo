@@ -9,8 +9,8 @@
   <div class="card-body">
   <img class="img-fluid" :src="card.img" alt="project image">
     <p class="card-text">{{card.title}}</p>
-     <a href="{{card.Ghub}}" class="btn btn-primaryd-flex btn-success">Ghub</a>
-     <a href="{{card.live}}" class="btn btn-primaryd-flex btn-danger">live</a>
+     <a :href="card.Ghub" class="btn btn-primaryd-flex btn-success">Ghub</a>
+     <a :href="card.live" class="btn btn-primaryd-flex btn-danger">live</a>
   </div>
 </div>
 </div>

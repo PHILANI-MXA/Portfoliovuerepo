@@ -1,8 +1,9 @@
 <template>
   <div id="home" class="container-fluid min-vh-100 my-5 p-4">
+  <div class="row">
     <div>
     <div class="wrapper">
-	<h1 class="text">
+	<h2 class="text">
 		<div class="line">
 			<p>I am Philani Mxathule</p>
 			<p>I am an aspiring front-end developer</p>
@@ -18,8 +19,10 @@
 			<p>I am Philani Mxathule</p>
 			<p>I am an aspiring front-end developer</p>
 		</div>
-	</h1>
-</div></div>
+	</h2>
+</div>
+</div>
+</div>
   </div>
 </template>
 
@@ -43,14 +46,21 @@ export default {
 background-attachment: fixed;
 background-position: fit-content;
 min-width: 100%;
+margin: auto;
 }
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-
+@media only screen and (max-width : 280px) {
 }
+p {
+			margin: 0;
+			height: 40px;
+			overflow: hidden;
+			font-size: 16px;
+			line-height: .5;
+			white-space: nowrap;
+			animation: moveWords 6s infinite ease;
+		}
 }
-
+ 
 
 p {
 	margin: 0;
