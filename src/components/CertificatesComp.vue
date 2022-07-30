@@ -1,7 +1,7 @@
 <template>
 <div id="certificates" class="container h-100 overflow-auto">
-<div class="row d-flex">
-<div v-for="card in certificates" class="col-md-4 card d-flex  ">
+<div class="row d-flex gy-2 gx-4 justify-content-between">
+<div v-for="card in certificates" class="col-md-4 card d-flex ">
 <div>
   <div class="card-header">
   </div>
@@ -27,6 +27,27 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
+.card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+color:white;
+font-family: San-Francisco;
 
+height: 440px;
+
+background-color: #17141D;
+border-radius: 10px;
+box-shadow: -1rem 0 3rem grey;
+transition: 0.4s ease-out;
+position: relative;
+left: 0px;
+}
+.cards:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
 </style>

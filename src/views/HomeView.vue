@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container-fluid{
   background-attachment: fixed;
   background-image: url(https://i.postimg.cc/7hnVt6gX/tai-s-captures-r5k-TKshp22-M-unsplash.jpg) !important;
@@ -51,14 +51,14 @@ margin: auto;
 @media only screen and (max-width : 280px) {
 }
 p {
-			margin: 0;
-			height: 40px;
-			overflow: hidden;
-			font-size: 16px;
-			line-height: .5;
-			white-space: nowrap;
-			animation: moveWords 6s infinite ease;
-		}
+	margin: 0;
+	height: 40px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: .5;
+	white-space: nowrap;
+	animation: moveWords 6s infinite ease;
+	}
 }
  
 

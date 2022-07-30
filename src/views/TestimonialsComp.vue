@@ -18,7 +18,7 @@
                                 <img class="pics img-fluid" src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg" alt="Joel carousel">
                                 <h5 class="my-3">Joel Mukanya</h5>
                                 <h6>Coding Lecture</h6>
-                                <p class="text-wrap">I am confident that Philani can meet your expectations. I recommend him.
+                                <p class="text-wrap"> Philani is one of the best students at Lifechoices Coding Academy. He has great communication and intellectual skills. Philani is able to learn new programming tools quickly. I highly recommend him a position where he gets to work on both the back-end and front-end.
                                 </p>
                             </div>
                         </div>
@@ -26,7 +26,7 @@
                             <img class="pics img-fluid" src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Sibongile carousel">
                             <h5 class="my-3">Sibongile Rwayi</h5>
                             <h6>Collegues</h6>
-                            <p class="text-wrap">Philani seems to show a lot of promise as a student. I enjoy seeing him work hard on his classwork.</p>
+                            <p class="text-wrap">Philani is an extremely hard-working and creative web developer. Besides the fact that he's extremely good at coding, I feel that he's best trait is that he never shies away from helping any of his peers. I have no doubt that Philani will be a successful web developer or animator one day.</p>
                         </div>
                         <div class="carousel-item">
                             <img class="pics img-fluid" src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Siliziwe Pani carousel">
@@ -38,13 +38,13 @@
                             <img class="pics img-fluid" src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Khanyiswa Ntenqa carousel">
                             <h5 class="my-3">Khanyiswa Ntenqa</h5>
                             <h6>Collegues</h6>
-                            <p class="text-wrap">Philani is very talented and his skill is acknowledged by others.</p>
+                            <p class="text-wrap"> If you have knowledge, let others light their candles in it."- Margaret Fuller. Philani has often been described as a sensei and g.o.a.t by his peers and deservedly so, as he's always lending a helping hand whenever asked. Philani is already a top achiever, but it's his willingness to share his knowledge that speaks to his character. He will be an invaluable asset wherever he decides to go next</p>
                         </div>
                         <div class="carousel-item">
                             <img class="pics img-fluid" src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Khanyiswa Ntenqa carousel">
                             <h5 class="my-3">Godwin</h5>
                             <h6>Senior Lecture</h6>
-                            <p class="text-wrap">Philani is really passionate about what tech and improving day by day</p>
+                            <p class="text-wrap">Philani is really passionate about what tech and improving day by day. Philani is very hardworking and possesses a keen attention to detail. He is always ready and willing to assist his peers.</p>
                         </div>
                     </div>
                 </div>
