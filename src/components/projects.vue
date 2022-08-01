@@ -44,9 +44,12 @@ border-radius: 10px;
 box-shadow: -1rem 0 3rem #000;
 transition: 0.4s ease-out;
 }
-.cards:hover {
+.card:hover {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -1px, 0px);
 }
-
+.btn{
+  justify-content: space-between;
+  align-content: space-around;
+}
 </style>
