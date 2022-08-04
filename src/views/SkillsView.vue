@@ -92,7 +92,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="container col-12 border border-black">
+                <div class="container col-12 border border-black p-4">
                 <h1>Tech Icons/svg Display Flex</h1>
                 </div>
             </div>
